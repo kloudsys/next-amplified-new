@@ -1,0 +1,15 @@
+projects:
+  nextamplifiednew:
+    schemaPath: amplify/backend/api/nextamplifiednew/build/schema.graphql
+    includes:
+      - (default)
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
+extensions:
+  amplify:
+    version: 3
